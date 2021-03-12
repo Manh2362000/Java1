@@ -15,7 +15,7 @@ public class Main {
         a.addHotel("Nhan Chinh","Ha Noi","Binz");
 
         for (Hotel y:a.HotelList){
-            System.out.println(y.name+y.location+y.ownerName);
+            System.out.println("Ten khach san:"+y.name+"Vi tri:"+y.location+"Chu so huu:"+y.ownerName);
         }
 
     }
