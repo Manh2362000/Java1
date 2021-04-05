@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="933.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="baitap.Controller">
+   <children>
+      <TextField fx:id="Name" layoutX="67.0" layoutY="140.0" promptText="Name" />
+      <Text layoutX="318.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address Book">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Phone" layoutX="373.0" layoutY="140.0" promptText="Phone number" />
+      <Button onAction="#them" layoutX="747.0" layoutY="140.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="118.0" text="Find" />
+      <Button onAction="#ok" layoutX="747.0" layoutY="362.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="118.0" text="OK" />
+      <TableView fx:id="tbview" layoutY="197.0" prefHeight="457.0" prefWidth="681.0">
+        <columns>
+          <TableColumn fx:id="tbName" prefWidth="349.0" text="Contract Name" />
+          <TableColumn fx:id="tbPhone" prefWidth="367.0" text="Phone Number" />
+        </columns>
+      </TableView>
+      <TextField fx:id="Sreach" layoutX="713.0" layoutY="296.0" promptText="Sreach" />
+      <Button onAction="#back" layoutX="747.0" layoutY="582.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="118.0" text="Exit" />
+   </children>
+</Pane>
